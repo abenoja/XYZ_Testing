@@ -52,3 +52,5 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo ${{ inputs.HALO_TARGET }} ${{ inputs.HALO_TICKET }} ${{ inputs.GUEST_DISPLAYNAME }} ${{ inputs.GUEST_EMAIL }} ${{ inputs.OPTIONS }}
+      - name: execute Python script
+        run: python CheckParam.py ${{ inputs.HALO_TARGET }} ${{ inputs.HALO_TICKET }} ${{ inputs.GUEST_DISPLAYNAME }} ${{ inputs.GUEST_EMAIL }} ${{ inputs.OPTIONS }} 
