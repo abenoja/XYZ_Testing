@@ -1,3 +1,20 @@
+# EntraGuestAddition
+#
+
+import msal
+import requests
+
+# msgraph stuff
+from msgraph import GraphServiceClient
+from msgraph.generated.models.invitation import Invitation
+
+# EMail validation
+from email_validator import validate_email, EmailNotValidError
+
+import sys
+import os
+import json
+
 # HALO Parameters and GITHUB environment vaiables and secrets
 ##
 # HALO parameters first
