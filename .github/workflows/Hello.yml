@@ -43,6 +43,7 @@ jobs:
           pip install msal
           pip install msgraph-sdk azure-identity
           pip install email-validator
+          pip requests
           pip freeze > requirements.txt
           pip install -r requirements.txt
       # Runs a single command using the runners shell
