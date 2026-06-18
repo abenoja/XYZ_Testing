@@ -1,0 +1,4 @@
+msal
+msgraph-sdk
+requests
+email-validator
