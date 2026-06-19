@@ -33,3 +33,5 @@ GUEST_EMAIL           = PARAM_GUEST_EMAIL.strip()
 OPTIONS               = sys.argv[5]
 
 print("Options           >{}<".format(OPTIONS))
+print("Options           >{}<".format(GUEST_EMAIL))
+print("Options           >{}<".format(GUEST_DISPLAYNAME))
